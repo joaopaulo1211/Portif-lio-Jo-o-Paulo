@@ -1,20 +1,27 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+🔳 QRCODE CHANGE
+📝 Descrição do Projeto
+Este projeto consiste em um gerador profissional de QR codes com backgrounds estéticos gerados por inteligência artificial. O objetivo principal é permitir que o usuário crie QR codes altamente personalizados a partir de um prompt de "vibe", definindo cores, estilo visual (quadrados ou pontos), tamanho, nível de correção de erro e logo central.
+Desenvolvido com React 19 + TypeScript + Vite, o sistema integra a API Gemini AI para geração de imagens de fundo e o Firebase (Auth + Firestore) para autenticação de usuários e armazenamento do histórico de QR codes gerados. O projeto está hospedado no Google AI Studio.
+Figura 1: Dashboard principal do sistema exibindo o gerador de QR codes com background gerado por IA.
+🚀 Tecnologias Utilizadas
 
-# Run and deploy your AI Studio app
+Linguagem: TypeScript 5.8
+Bibliotecas: React 19, qrcode.react, @google/genai, Firebase 12, lucide-react, motion, Tailwind CSS 4
+Ferramentas: Vite 6, Google AI Studio, Firebase Auth, Firestore
 
-This contains everything you need to run your app locally.
+📊 Resultados e Aprendizados
+O projeto entrega uma experiência completa de criação, personalização e gerenciamento de QR codes com IA integrada.
 
-View your app in AI Studio: https://ai.studio/apps/f5329e14-03f9-4f35-a286-0b35085d89f7
+Geração de backgrounds com IA: O usuário descreve uma "vibe" em texto e a API Gemini gera uma imagem de fundo personalizada para o QR code em tempo real.
+Personalização completa: Configuração de cores (fgColor, bgColor), tamanho em pixels, nível de correção de erro (L/M/Q/H), estilo visual (squares/dots), margem e logo central.
+Histórico autenticado: QR codes salvos ficam armazenados no Firestore vinculados à conta do usuário via Firebase Auth, com suporte a deleção e recuperação.
 
-## Run Locally
+Figura 2: Painel de design com opções de personalização e prévia em tempo real do QR code.
+🔧 Como Executar
 
-**Prerequisites:**  Node.js
+Clone o repositório.
+Instale as dependências: npm install.
+Configure a variável GEMINI_API_KEY no arquivo .env.local.
+Execute o comando: npm run dev.
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Figura 3: Fluxo do pipeline — entrada de texto e vibe → Gemini AI gera background → QR code renderizado e salvo no Firestore.
