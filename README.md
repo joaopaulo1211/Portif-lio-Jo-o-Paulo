@@ -46,12 +46,17 @@ Atualmente cursando o 2º semestre de Ciência da Computação na UNICID. Tenho 
 #### 🗃️ Banco de Dados
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| Em breve | Modelagem e scripts SQL desenvolvidos durante o curso. | — |
+| Entregue | Modelagem e scripts SQL desenvolvidos durante o curso. | — |
+| Artefato - 01 | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/modelagem%20-%20de%20-%20banco%20-%20de%20-%20dados) |
 
 #### 💻 Desenvolvimento
 | Projeto | Descrição | Link |
 | :--- | :--- | :---: |
-| Em breve | Projetos práticos com Python, HTML e CSS. | — |
+| Projeto Bubble — Aplicativo de Delivery | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/projeto%20-%20bubble%20-%20aplicativo%20-%20de%20-%20delivery) |
+| criar Música com IA | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/projeto%20-%20criar%20-%20m%C3%BAsica%20-%20com%20-%20ia) |
+| projeto site qr code | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/projeto%20-%20site-qr-code) |
+| projeto batalha de modelos | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/projeto%20-batalha-de-modelos) |
+| projeto treinamento de ia | Descrição | [Ver Projeto](https://github.com/joaopaulo1211/Portif-lio-Jo-o-Paulo/tree/main/projeto%20-%20treinamento-%20de-%20ia) |
 
 ---
 
